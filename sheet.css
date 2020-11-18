@@ -12,6 +12,12 @@
     padding: 5px;
 }
 
+.sheet-grid-container-compact{
+  display: grid;
+  grid-gap: 5px;
+  padding: 0px;
+}
+
 .sheet-contains-ten-columns {
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
 }
@@ -39,7 +45,13 @@
 .sheet-contains-four-columns {
     grid-template-columns: auto auto auto auto;
 }
+.sheet-contains-four-rows {
+  grid-template-rows: auto auto auto auto;
+}
 
+.sheet-contains-two-columns {
+    grid-template-columns: auto auto;
+}
 .sheet-contains-three-columns {
     grid-template-columns: auto auto auto;
 }
@@ -55,6 +67,10 @@
 .sheet-span-second-three {
     grid-column: 2 / 5;
     grid-row: 2 / 4;
+}
+.sheet-span-second-two{
+  grid-column: 2 / 5;
+
 }
 
 .sheet-span-fifth-one {
@@ -252,6 +268,9 @@
 
 .sheet-text-input {
     width: 100%;
+}
+.sheet-text-input-small{
+  width:50%;
 }
 
 .sheet-indent-one {
